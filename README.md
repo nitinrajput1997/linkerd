@@ -10,12 +10,12 @@ linkerd version
 ### Validate your Kubernetes cluster
 
 ```bash
-    linkerd check --pre
+linkerd check --pre
 ```
 
 ### Install the control plane onto your cluster
 ```bash
-	 	linkerd install | kubectl apply -f -
-	 	linkerd check
-	 	linkerd viz install | kubectl apply -f - # install the on-cluster metrics stack
+linkerd install | kubectl apply -f -
+linkerd check
+linkerd viz install | kubectl apply -f - # install the on-cluster metrics stack
 ```

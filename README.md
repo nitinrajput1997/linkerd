@@ -2,9 +2,9 @@
 
 ### Install the CLI
 ```bash
-	 	curl --proto '=https' --tlsv1.2 -sSfL https://run.linkerd.io/install | sh
-	 	export PATH=$PATH:/home/ubuntu/.linkerd2/bin
-	 	linkerd version
+curl --proto '=https' --tlsv1.2 -sSfL https://run.linkerd.io/install | sh
+export PATH=$PATH:/home/ubuntu/.linkerd2/bin
+linkerd version
 ```
 
 ### Validate your Kubernetes cluster
